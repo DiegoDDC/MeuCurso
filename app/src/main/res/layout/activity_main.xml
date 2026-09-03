@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="@string/nome_instituicao" />
+
+    <TextView
+        android:id="@+id/txtInstituicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/nome_instituicao"
+        android:textSize="14sp"
+        android:textColor="#B0BEC5" />
+
+    <TextView
+        android:id="@+id/txtNomeCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/nome_curso"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#00E676"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/descricao_curta"
+        android:textSize="14sp"
+        android:textColor="#E0E0E0"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnConhecaCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/btn_conheca_curso"
+        android:backgroundTint="#003311"
+        android:textColor="#00E676" />
+
+    <Button
+        android:id="@+id/btnDisciplinas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/btn_disciplinas"
+        android:backgroundTint="#1E1E1E"
+        android:textColor="#00E676" />
+
+</LinearLayout>

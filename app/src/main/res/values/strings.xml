@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Meu Curso</string>
+    <string name="nome_instituicao">Instituição de Ensino XYZ</string>
+    <string name="nome_curso">Análise e Desenvolvimento de Sistemas</string>
+    <string name="descricao_curta">Formação voltada para desenvolvimento de software, banco de dados e engenharia de sistemas.</string>
+    <string name="btn_conheca_curso">Conheça o curso</string>
+    <string name="btn_disciplinas">Disciplinas</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="duracao_curso">Duração: 2 anos</string>
+    <string name="modalidade_curso">Modalidade: Presencial</string>
+    <string name="descricao_detalhada">O curso superior de tecnologia em Análise e Desenvolvimento de Sistemas (ADS) capacita profissionais para atuar em todo o ciclo de vida do software, oferecendo uma formação prática focada em programação, engenharia de sistemas, modelagem de banco de dados e metodologias ágeis para o mercado corporativo.</string>
+    <string name="titulo_disciplinas">Disciplinas do curso</string>
+</resources>

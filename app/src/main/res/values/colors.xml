@@ -1,0 +1,8 @@
+<resources>
+    <color name="fundo_claro">#F5F5F5</color>
+    <color name="azul_principal">#1565C0</color>
+    <color name="azul_escuro">#0D47A1</color>
+    <color name="texto_escuro">#212121</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="cinza_card">#E0E0E0</color>
+</resources>
