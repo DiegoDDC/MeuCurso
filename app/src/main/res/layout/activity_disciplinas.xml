@@ -26,13 +26,12 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- Removido o style antigo para garantir o fundo escuro e texto verde neon -->
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Programação" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Banco de Dados" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Engenharia de Software" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Desenvolvimento Web" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Desenvolvimento Mobile" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Inteligência Artificial" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
+            <TextView android:id="@+id/itemProgramacao" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Programação" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
+            <TextView android:id="@+id/itemBancoDeDados" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Banco de Dados" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
+            <TextView android:id="@+id/itemEngenhariaSoftware" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Engenharia de Software" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
+            <TextView android:id="@+id/itemDesenvolvimentoWeb" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Desenvolvimento Web" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
+            <TextView android:id="@+id/itemDesenvolvimentoMobile" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Desenvolvimento Mobile" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
+            <TextView android:id="@+id/itemInteligenciaArtificial" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="> Inteligência Artificial" android:textColor="#00E676" android:textSize="16sp" android:background="#1E1E1E" android:padding="16dp" android:layout_marginBottom="8dp" />
 
         </LinearLayout>
     </ScrollView>
