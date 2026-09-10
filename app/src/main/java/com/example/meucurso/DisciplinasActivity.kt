@@ -22,8 +22,8 @@ class DisciplinasActivity : AppCompatActivity() {
                 nome = "Programação",
                 cargaHoraria = "80 horas",
                 modalidade = "Presencial",
-                descricao = "Fundamentos de lógica e estruturas de programação.",
-                professor = "Leandro Melo",
+                descricao = "Fundamentos de lógica e estruturas de programação direto da fonte.",
+                professor = "Neo",
                 preRequisito = "Nenhum"
             )
         }
@@ -33,8 +33,8 @@ class DisciplinasActivity : AppCompatActivity() {
                 nome = "Banco de Dados",
                 cargaHoraria = "60 horas",
                 modalidade = "Presencial",
-                descricao = "Modelagem, SQL e administração de bancos de dados relacionais.",
-                professor = "Carla Souza",
+                descricao = "Modelagem, SQL e extração rápida de dados de servidores centrais.",
+                professor = "Trinity",
                 preRequisito = "Programação"
             )
         }
@@ -44,8 +44,8 @@ class DisciplinasActivity : AppCompatActivity() {
                 nome = "Engenharia de Software",
                 cargaHoraria = "60 horas",
                 modalidade = "Híbrido",
-                descricao = "Processos, metodologias ágeis e ciclo de vida de software.",
-                professor = "Ramon Alves",
+                descricao = "Processos, metodologias ágeis e arquitetura de sistemas em Zion.",
+                professor = "Morpheus",
                 preRequisito = "Programação"
             )
         }
@@ -55,8 +55,8 @@ class DisciplinasActivity : AppCompatActivity() {
                 nome = "Desenvolvimento Web",
                 cargaHoraria = "70 horas",
                 modalidade = "Presencial",
-                descricao = "Construção de aplicações web com HTML, CSS e frameworks modernos.",
-                professor = "Keven Lima",
+                descricao = "Construção de aplicações web e gerenciamento de redes de comunicação.",
+                professor = "Tank",
                 preRequisito = "Programação"
             )
         }
@@ -66,8 +66,8 @@ class DisciplinasActivity : AppCompatActivity() {
                 nome = "Desenvolvimento Mobile",
                 cargaHoraria = "80 horas",
                 modalidade = "Presencial",
-                descricao = "Nesta disciplina são estudados conceitos relacionados ao desenvolvimento de aplicativos.",
-                professor = "Leandro Melo",
+                descricao = "Desenvolvimento de aplicativos capazes de rodar em qualquer dispositivo da resistência.",
+                professor = "Oráculo",
                 preRequisito = "Desenvolvimento Web"
             )
         }
@@ -77,8 +77,8 @@ class DisciplinasActivity : AppCompatActivity() {
                 nome = "Inteligência Artificial",
                 cargaHoraria = "60 horas",
                 modalidade = "Presencial",
-                descricao = "Introdução a algoritmos de aprendizado de máquina e IA aplicada.",
-                professor = "Rodrigo Farias",
+                descricao = "Introdução a algoritmos de replicação autônoma e programas controladores.",
+                professor = "Agente Smith",
                 preRequisito = "Estrutura de Dados"
             )
         }
